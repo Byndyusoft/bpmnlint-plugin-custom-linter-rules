@@ -14,10 +14,16 @@
     "bpmnlint",
     "camunda"
   ],
+  "files": [
+    "rules",
+    "index.js"
+  ],
   "license": "Apache-2.0",
   "author": "Byndyusoft",
+  "main": "index.js",
   "scripts": {
-    "postinstall": "husky",
+    "build": "echo '(・_・)ノ'",
+    "postinstall": "husky ||  true",
     "lint": "yarn run lint:markdown && yarn run lint:prettier",
     "lint:fix": "yarn run lint:markdown:fix && yarn run lint:prettier:fix",
     "lint:markdown": "markdownlint --ignore-path ./.gitignore \"./**/*.md\"",
@@ -45,5 +51,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "bpmnlint-utils": "^1.1.1"
   }
 }
