@@ -23,7 +23,7 @@
   "main": "index.js",
   "scripts": {
     "build": "echo '(・_・)ノ'",
-    "postinstall": "husky ||  true",
+    "postinstall": "husky || true",
     "lint": "yarn run lint:markdown && yarn run lint:prettier",
     "lint:fix": "yarn run lint:markdown:fix && yarn run lint:prettier:fix",
     "lint:markdown": "markdownlint --ignore-path ./.gitignore \"./**/*.md\"",
