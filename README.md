@@ -1,34 +1,45 @@
-# ᐸRepository nameᐳ
+# @byndyusoft/bpmnlint-plugin-custom-linter-rules
 
 [![npm@latest](https://img.shields.io/npm/v/@byndyusoft/base-template/latest.svg)](https://www.npmjs.com/package/@byndyusoft/base-template)
 [![test](https://github.com/Byndyusoft/node-base-template/actions/workflows/test.yaml/badge.svg?branch=master)](https://github.com/Byndyusoft/node-base-template/actions/workflows/test.yaml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-ᐸRepository descriptionᐳ
+Custom rules for [bpmnlint](https://github.com/bpmn-io/bpmnlint)
 
 ## Requirements
 
-- Node.js v14 LTS or later
+- Node.js v18 LTS or later
 - Yarn
 
 ## Install
 
 ```bash
-yarn add ᐸPackage nameᐳ
+yarn add @byndyusoft/bpmnlint-plugin-custom-linter-rules
 ```
 
 ## Usage
 
-```typescript
-// Usage example
+Activate the rules via the local `.bpmnlintrc` file. For customize use rules
+block. For additional
+see [For additional see](https://github.com/bpmn-io/bpmnlint?tab=readme-ov-file#configuration)
+
+```json
+{
+  "extends": [
+    "bpmnlint:recommended",
+    "plugin:@byndyusoft/bpmnlint-plugin-custom-linter-rules/recommended"
+  ],
+  "rules": {
+      "no-useless-async": "warn"
+    }
+}
 ```
 
 ## Maintainers
 
 - [@Byndyusoft/owners](https://github.com/orgs/Byndyusoft/teams/owners) <<github.maintain@byndyusoft.com>>
 - [@Byndyusoft/team](https://github.com/orgs/Byndyusoft/teams/team)
-- [@KillWolfVlad](https://github.com/KillWolfVlad)
 
 ## License
 
