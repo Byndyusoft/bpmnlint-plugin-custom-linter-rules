@@ -1,6 +1,6 @@
 {
   "name": "@byndyusoft/bpmnlint-plugin-custom-linter-rules",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "description": "Custom rules for bpmnlint",
   "keywords": [
     "bpmnlint",
@@ -34,7 +34,7 @@
     "postpublish": "pinst --enable"
   },
   "dependencies": {
-    "bpmnlint-utils": "^1.1.1"
+    "bpmnlint-utils": "1.1.1"
   },
   "devDependencies": {
     "@commitlint/cli": "19.0.3",
