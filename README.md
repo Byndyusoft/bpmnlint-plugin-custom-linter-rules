@@ -36,6 +36,10 @@ see [For additional see](https://github.com/bpmn-io/bpmnlint?tab=readme-ov-file#
 }
 ```
 
+## Rules
+
+See [documentation](./docs/rules/Readme.md). [The rules folders](./rules) contains each rules implementation.
+
 ## Maintainers
 
 - [@Byndyusoft/owners](https://github.com/orgs/Byndyusoft/teams/owners) <<github.maintain@byndyusoft.com>>
