@@ -31,8 +31,8 @@ see [For additional see](https://github.com/bpmn-io/bpmnlint?tab=readme-ov-file#
     "plugin:@byndyusoft/bpmnlint-plugin-custom-linter-rules/recommended"
   ],
   "rules": {
-      "no-useless-async": "warn"
-    }
+    "no-useless-async": "warn"
+  }
 }
 ```
 

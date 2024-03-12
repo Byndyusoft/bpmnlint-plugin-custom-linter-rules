@@ -2,6 +2,10 @@
   "name": "@byndyusoft/bpmnlint-plugin-custom-linter-rules",
   "version": "0.0.0-development",
   "description": "Custom rules for bpmnlint",
+  "keywords": [
+    "bpmnlint",
+    "camunda"
+  ],
   "homepage": "https://github.com/Byndyusoft/bpmnlint-plugin-custom-linter-rules#readme",
   "bugs": {
     "url": "https://github.com/Byndyusoft/bpmnlint-plugin-custom-linter-rules/issues"
@@ -10,17 +14,13 @@
     "type": "git",
     "url": "https://github.com/Byndyusoft/bpmnlint-plugin-custom-linter-rules.git"
   },
-  "keywords": [
-    "bpmnlint",
-    "camunda"
-  ],
+  "license": "Apache-2.0",
+  "author": "Byndyusoft",
+  "main": "index.js",
   "files": [
     "rules",
     "index.js"
   ],
-  "license": "Apache-2.0",
-  "author": "Byndyusoft",
-  "main": "index.js",
   "scripts": {
     "build": "echo '(・_・)ノ'",
     "postinstall": "husky || true",
@@ -32,6 +32,9 @@
     "lint:prettier:fix": "prettier --ignore-path ./.gitignore --write \"./**/*.{ts,js,json,yaml,yml,md}\"",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
+  },
+  "dependencies": {
+    "bpmnlint-utils": "^1.1.1"
   },
   "devDependencies": {
     "@commitlint/cli": "19.0.3",
@@ -51,8 +54,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "bpmnlint-utils": "^1.1.1"
   }
 }

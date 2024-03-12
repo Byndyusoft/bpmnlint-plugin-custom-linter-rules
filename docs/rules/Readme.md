@@ -1,3 +1,3 @@
 # Rules
 
-* [No useless async](./no-useless-async.md)
+- [No useless async](./no-useless-async.md)
