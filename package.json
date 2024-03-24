@@ -1,6 +1,6 @@
 {
   "name": "@byndyusoft/bpmnlint-plugin-custom-linter-rules",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Custom rules for bpmnlint",
   "keywords": [
     "bpmnlint",
@@ -22,8 +22,7 @@
     "index.js"
   ],
   "scripts": {
-    "build": "echo '(・_・)ノ'",
-    "postinstall": "husky || true",
+    "postinstall": "husky",
     "lint": "yarn run lint:markdown && yarn run lint:prettier",
     "lint:fix": "yarn run lint:markdown:fix && yarn run lint:prettier:fix",
     "lint:markdown": "markdownlint --ignore-path ./.gitignore \"./**/*.md\"",

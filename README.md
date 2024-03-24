@@ -1,7 +1,7 @@
-# @byndyusoft/bpmnlint-plugin-custom-linter-rules
+# bpmnlint-plugin-custom-linter-rules
 
-[![npm@latest](https://img.shields.io/npm/v/@byndyusoft/base-template/latest.svg)](https://www.npmjs.com/package/@byndyusoft/base-template)
-[![test](https://github.com/Byndyusoft/node-base-template/actions/workflows/test.yaml/badge.svg?branch=master)](https://github.com/Byndyusoft/node-base-template/actions/workflows/test.yaml)
+[![npm@latest](https://img.shields.io/npm/v/@byndyusoft/bpmnlint-plugin-custom-linter-rules/latest.svg)](https://www.npmjs.com/package/@byndyusoftbpmnlint-plugin-custom-linter-rules)
+[![test](https://github.com/Byndyusoftbpmnlint-plugin-custom-linter-rules/actions/workflows/test.yaml/badge.svg?branch=master)](https://github.com/Byndyusoft/bpmnlint-plugin-custom-linter-rules/actions/workflows/test.yaml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
@@ -15,7 +15,11 @@ Custom rules for [bpmnlint](https://github.com/bpmn-io/bpmnlint)
 ## Install
 
 ```bash
-yarn add @byndyusoft/bpmnlint-plugin-custom-linter-rules
+yarn add -D @byndyusoft/bpmnlint-plugin-custom-linter-rules
+```
+
+```bash
+npm i -D @byndyusoft/bpmnlint-plugin-custom-linter-rules
 ```
 
 ## Usage
@@ -29,16 +33,14 @@ see [For additional see](https://github.com/bpmn-io/bpmnlint?tab=readme-ov-file#
   "extends": [
     "bpmnlint:recommended",
     "plugin:@byndyusoft/bpmnlint-plugin-custom-linter-rules/recommended"
-  ],
-  "rules": {
-    "no-useless-async": "warn"
-  }
+  ]
 }
 ```
 
 ## Rules
 
-See [documentation](./docs/rules/Readme.md). [The rules folders](./rules) contains each rules implementation.
+See [documentation](./docs/rules/Readme.md). [The rules folders](./rules)
+contains each rules implementation.
 
 ## Maintainers
 
