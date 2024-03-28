@@ -33,7 +33,7 @@
     "postpublish": "pinst --enable"
   },
   "dependencies": {
-    "bpmnlint-utils": "1.1.1"
+    "bpmnlint-utils": "^1.1.1"
   },
   "devDependencies": {
     "@commitlint/cli": "19.0.3",

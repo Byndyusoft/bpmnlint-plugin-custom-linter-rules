@@ -7,7 +7,7 @@ separated from other parts of the execution
 See best
 practice [Understanding Camunda 7 transaction handling](https://docs.camunda.io/docs/components/best-practices/development/understanding-transaction-handling-c7/#knowing-typical-dos-and-donts-for-save-points)
 
-Example of **incorrect** usage for this rule:
+## Example of **incorrect** usage for this rule
 
 ![Incorrect usage exclusive gateway example](./examples/exclusive_gateway_async_bad.png)
 
@@ -33,7 +33,7 @@ Example of **incorrect** usage for this rule:
 </bpmn:parallelGateway>
 ```
 
-Example of **correct** usage for this rule:
+## Example of **correct** usage for this rule
 
 ![Correct usage exclusive gateway example](./examples/exclusive_gateway_async_good.png)
 
